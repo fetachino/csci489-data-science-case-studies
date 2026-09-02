@@ -6,6 +6,14 @@
 
 Selected R and machine-learning work demonstrating exploratory analysis, data cleaning, reproducible sampling, visualization, and model evaluation.
 
+## Analysis previews
+
+| Iris relationship | Salary comparison |
+| --- | --- |
+| ![Iris petal length versus petal width scatter plot](docs/images/iris-scatter-plot.png) | ![Computer and mathematical occupation salary comparison](docs/images/computer-math-salary-comparison.png) |
+
+These plots are outputs from the included R analysis workflows.
+
 ## Portfolio value
 
 These case studies emphasize decision-making, not just model fitting: selecting appropriate metrics for imbalanced data, documenting leakage risks, cleaning real tabular schemas, and making analyses repeatable without redistributing restricted datasets.
