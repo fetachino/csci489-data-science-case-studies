@@ -1,0 +1,6 @@
+.Rhistory
+.RData
+data/
+*.xlsx
+*.csv
+*.png
