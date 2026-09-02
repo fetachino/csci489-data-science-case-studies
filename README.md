@@ -1,6 +1,14 @@
 # CSCI 48900 Data Science Case Studies
 
+[![R](https://img.shields.io/badge/R-data_analysis-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
+[![Machine Learning](https://img.shields.io/badge/Machine_Learning-classification-F7931E)](case-studies/bank-marketing-classification.md)
+[![Reproducible](https://img.shields.io/badge/Analysis-reproducible-2A9D8F)](#reproducibility-and-data-policy)
+
 Selected R and machine-learning work demonstrating exploratory analysis, data cleaning, reproducible sampling, visualization, and model evaluation.
+
+## Portfolio value
+
+These case studies emphasize decision-making, not just model fitting: selecting appropriate metrics for imbalanced data, documenting leakage risks, cleaning real tabular schemas, and making analyses repeatable without redistributing restricted datasets.
 
 ## Projects
 
@@ -43,6 +51,6 @@ Verification consists of reviewing the console statistics and generated plots/wo
 
 CSCI 48900 — Data Science.
 
-## Author
+## About the author
 
-Ahmed Balde
+Built by **Ahmed Balde** as part of a portfolio in data science, Python/R analytics, backend systems, and quality engineering. See more work on [GitHub](https://github.com/fetachino).
