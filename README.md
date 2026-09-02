@@ -14,6 +14,18 @@ Selected R and machine-learning work demonstrating exploratory analysis, data cl
 
 These plots are outputs from the included R analysis workflows.
 
+## Analysis workflow
+
+```mermaid
+flowchart LR
+    A["Source datasets"] --> B["Clean and validate"]
+    B --> C["Explore distributions"]
+    C --> D["Engineer analysis features"]
+    D --> E["Fit or compare models"]
+    E --> F["Evaluate results"]
+    F --> G["Visualize and communicate"]
+```
+
 ## Portfolio value
 
 These case studies emphasize decision-making, not just model fitting: selecting appropriate metrics for imbalanced data, documenting leakage risks, cleaning real tabular schemas, and making analyses repeatable without redistributing restricted datasets.
