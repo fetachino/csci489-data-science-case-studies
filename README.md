@@ -22,6 +22,23 @@ Read the [case study](case-studies/bank-marketing-classification.md).
 
 Scripts use relative paths and fixed random seeds where sampling is involved. Course-provided and third-party datasets are not redistributed; the UCI datasets can be obtained from their original sources.
 
+## Run the R analyses
+
+Install R and the packages required by the salary analysis:
+
+```r
+install.packages(c("readxl", "dplyr", "stringr", "writexl", "ggplot2"))
+```
+
+Place the referenced datasets beside the appropriate script, then run:
+
+```console
+Rscript R/iris-exploration.R
+Rscript R/salary-data-cleaning.R
+```
+
+Verification consists of reviewing the console statistics and generated plots/workbooks. The Bank Marketing case study records its held-out metrics and experimental assumptions directly in Markdown.
+
 ## Course
 
 CSCI 48900 — Data Science.
